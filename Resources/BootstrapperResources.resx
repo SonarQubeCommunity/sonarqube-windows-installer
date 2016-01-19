@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InstallationSummaryDatabaseName" xml:space="preserve">
+    <value>sonarqubedb</value>
+  </data>
+  <data name="InstallationSummaryDatabaseType" xml:space="preserve">
+    <value>Database Type</value>
+  </data>
+  <data name="InstallationSummaryDBAuthentication" xml:space="preserve">
+    <value>Database Authentication</value>
+  </data>
+  <data name="InstallationSummaryDBName" xml:space="preserve">
+    <value>Database Name</value>
+  </data>
+  <data name="InstallationSummaryDescription" xml:space="preserve">
+    <value>This will install SonarQube Server with the following options on this machine</value>
+  </data>
+  <data name="InstallationSummaryHTTPPort" xml:space="preserve">
+    <value>HTTP Port for web access</value>
+  </data>
+  <data name="InstallationSummaryInstallLocation" xml:space="preserve">
+    <value>Installation Location</value>
+  </data>
+  <data name="InstallationSummaryInstallService" xml:space="preserve">
+    <value>Install Service</value>
+  </data>
+  <data name="InstallationSummarySqlAuthentication" xml:space="preserve">
+    <value>SQL Authentication</value>
+  </data>
+  <data name="InstallationSummarySqlExpressInstance" xml:space="preserve">
+    <value>MSSQL  ({0})</value>
+  </data>
+  <data name="InstallationSummaryTitle" xml:space="preserve">
+    <value>Installation Summary</value>
+  </data>
+  <data name="InstallationSummaryWindowsAuthentication" xml:space="preserve">
+    <value>Windows Authentication</value>
+  </data>
+  <data name="InstallDirDatabaseType" xml:space="preserve">
+    <value>Database Type</value>
+  </data>
+  <data name="InstallDirDatabaseTypeValue" xml:space="preserve">
+    <value>H2 Embedded Database (Port {0})</value>
+  </data>
+  <data name="InstallDirDescription" xml:space="preserve">
+    <value>This will install SonarQube Server with the following options on this machine</value>
+  </data>
+  <data name="InstallDirHTTPPort" xml:space="preserve">
+    <value>HTTP Port for web access</value>
+  </data>
+  <data name="InstallDirInformationEvaluation" xml:space="preserve">
+    <value>Please note that the H2 Database option is meant for evaluation only</value>
+  </data>
+  <data name="InstallDirInstallationLocation" xml:space="preserve">
+    <value>Installation Location</value>
+  </data>
+  <data name="InstallDirInstallServiceValue" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="InstallDirServiceInstall" xml:space="preserve">
+    <value>Install Service</value>
+  </data>
+  <data name="JavaVersion" xml:space="preserve">
+    <value>1.7</value>
+  </data>
+  <data name="SetupTypeCustom" xml:space="preserve">
+    <value>Install SonarQube server with MySQL/Oracle/PostgreSQL</value>
+  </data>
+  <data name="SetupTypeEvaluation" xml:space="preserve">
+    <value>Evaluation Installation (Minimal setup for evaluation purposes only)</value>
+  </data>
+  <data name="SetupTypeExpress" xml:space="preserve">
+    <value>Install SonarQube server with new or existing SQL Instance</value>
+  </data>
+  <data name="SetupTypeSelectOption" xml:space="preserve">
+    <value>Please choose one of the following</value>
+  </data>
+  <data name="SetupTypeTitle" xml:space="preserve">
+    <value>Choose the appropriate installation option</value>
+  </data>
+  <data name="SqlInstallationDescription" xml:space="preserve">
+    <value>Select SQL Server Instance for SonarQube Server</value>
+  </data>
+  <data name="SqlInstallationExistingSqlDescription" xml:space="preserve">
+    <value>Select this option if you have an existing SQL Server that you would like to use for use with SonarQube Server</value>
+  </data>
+  <data name="SqlInstallationExistingSqlOption" xml:space="preserve">
+    <value>Use an existing SQL Server Instance</value>
+  </data>
+  <data name="SqlInstallationInstallSqlDescription" xml:space="preserve">
+    <value>If you select this option a new instance of Microsoft SQL Server Express will be installed and configured for use with SonarQube Server</value>
+  </data>
+  <data name="SqlInstallationInstallSqlOption" xml:space="preserve">
+    <value>Install SQL Server Express</value>
+  </data>
+  <data name="SqlInstallationSqlAlreadyInstalled" xml:space="preserve">
+    <value>The option to install SQL Server Express is disabled because we found an existing instance of SQL Server already on this system.</value>
+  </data>
+  <data name="SqlInstallationTitle" xml:space="preserve">
+    <value>Select SQL Server Instance</value>
+  </data>
+  <data name="SqlServerInstanceDescription" xml:space="preserve">
+    <value>Please specify the SQL instance to be used with the SonarQube Server. Note that the user needs to have at least dbcreator privileges in order to proceed with the installation</value>
+  </data>
+  <data name="SqlServerInstanceFailedAuthenticationMessage" xml:space="preserve">
+    <value>Authentication failed when attempting to access the database instance</value>
+  </data>
+  <data name="SqlServerInstanceNameLabel" xml:space="preserve">
+    <value>Select SQL Server Instance</value>
+  </data>
+  <data name="SqlServerInstancePasswordLabel" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="SqlServerInstanceSubtitle" xml:space="preserve">
+    <value>Select SQL Instance to be used with SonarQube Server</value>
+  </data>
+  <data name="SqlServerInstanceTitle" xml:space="preserve">
+    <value>Select SQL Server Instance</value>
+  </data>
+  <data name="SqlServerInstanceUserNameLabel" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="SqlServerInstanceWindowsCredentialsLabel" xml:space="preserve">
+    <value>Use Logged in users as authentication (or specify alternate credentials below)</value>
+  </data>
+  <data name="WelcomeDialogAction" xml:space="preserve">
+    <value>Click Next to Continue, or Cancel to exit the Setup.</value>
+  </data>
+  <data name="WelcomeDialogDescription" xml:space="preserve">
+    <value>This will install SonarQube Server 5.2 on your computer. The wizard will lead you step by step through the installation.</value>
+  </data>
+  <data name="WelcomeDialogJavaVersionError" xml:space="preserve">
+    <value>Java SE Runtime Engine v7 or up is required for SonarQube server, please install the same from this link and restart installation</value>
+  </data>
+  <data name="WelcomeDialogTitle" xml:space="preserve">
+    <value>Welcome to the SonarQube Server 5.2 Installation Wizard</value>
+  </data>
+  <data name="WelcomeDialogTryAgain" xml:space="preserve">
+    <value>Try Again</value>
+  </data>
+  <data name="BackButtonText" xml:space="preserve">
+    <value>&amp;Back</value>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="EndUserLicenseAcceptCheckbox" xml:space="preserve">
+    <value>I accept the terms in the License Agreement.</value>
+  </data>
+  <data name="EndUserLicenseSubtitle" xml:space="preserve">
+    <value>Please read the SonarQube License Agreement</value>
+  </data>
+  <data name="EndUserLicenseTitle" xml:space="preserve">
+    <value>End-User License Agreement</value>
+  </data>
+  <data name="InstallationDialogTitle" xml:space="preserve">
+    <value>SonarQube 5.2</value>
+  </data>
+  <data name="InstallDirTitle" xml:space="preserve">
+    <value>Destination Folder</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="License" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>License.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="NextButtonText" xml:space="preserve">
+    <value>&amp;Next</value>
+  </data>
+  <data name="PrintButtonText" xml:space="preserve">
+    <value>&amp;Print</value>
+  </data>
+  <data name="sonarqube_banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sonarqube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="failed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Images\failed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProgressDialogInstallProgress" xml:space="preserve">
+    <value>Installing {0}</value>
+  </data>
+  <data name="ProgressDialogSubtitle" xml:space="preserve">
+    <value>Please wait while we install SonarQube setup...</value>
+  </data>
+  <data name="ProgressDialogTitle" xml:space="preserve">
+    <value>Installing SonarQube 5.2</value>
+  </data>
+  <data name="succeeded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Images\Succeeded.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MaintenanceDialogDescription" xml:space="preserve">
+    <value>Select the operation you wish to perform.</value>
+  </data>
+  <data name="MaintenanceDialogTitle" xml:space="preserve">
+    <value>Repair or remove installation</value>
+  </data>
+  <data name="MaintenanceRemoveButtonText" xml:space="preserve">
+    <value>&amp;Remove</value>
+  </data>
+  <data name="MaintenanceRemoveDescription" xml:space="preserve">
+    <value>Removes SonarQube from your computer.</value>
+  </data>
+  <data name="MaintenanceRepairButtonText" xml:space="preserve">
+    <value>R&amp;epair</value>
+  </data>
+  <data name="MaintenanceRepairDescription" xml:space="preserve">
+    <value>Repairs errors in the most recent installation by fixing missing and corrupt files, shortcuts, and registry entries.</value>
+  </data>
+  <data name="ProgressDialogRepairProgress" xml:space="preserve">
+    <value>Repairing {0}</value>
+  </data>
+  <data name="ProgressDialogUninstallProgress" xml:space="preserve">
+    <value>Uninstalling {0}</value>
+  </data>
+  <data name="ExitDialogErrorDescription" xml:space="preserve">
+    <value>Setup Wizard ended prematurely because of an error. Your system has not been modified. To install this program at a later time, run Setup Wizard again.</value>
+  </data>
+  <data name="ExitDialogSuccessDescription" xml:space="preserve">
+    <value>Click the Finish button to exit the Setup Wizard.</value>
+  </data>
+  <data name="ExitDialogTitle" xml:space="preserve">
+    <value>Completed the SonarQube Setup Wizard</value>
+  </data>
+  <data name="FinishButtonText" xml:space="preserve">
+    <value>&amp;Finish</value>
+  </data>
+  <data name="SqlServerNewUserCredentialsDescription" xml:space="preserve">
+    <value>Select current Windows credentials or SQL authentication to setup SonarQube server.</value>
+  </data>
+  <data name="SqlServerNewUserCredentialsTitle" xml:space="preserve">
+    <value>Choose the authentication method for new SQL express</value>
+  </data>
+  <data name="ProgressSetupFailedMessage" xml:space="preserve">
+    <value>Setup has failed in one of the steps...</value>
+  </data>
+  <data name="ConfigureDatabaseDialogConnectToSQLLabel" xml:space="preserve">
+    <value>Link to a Microsoft SQL Server Database Instance (Recommended)</value>
+  </data>
+  <data name="ConfigureDatabaseDialogDescription" xml:space="preserve">
+    <value>Please choose one of the following:</value>
+  </data>
+  <data name="ConfigureDatabaseDialogOtherDBLabel" xml:space="preserve">
+    <value>Link to other Database Instance</value>
+  </data>
+  <data name="ConfigureDatabaseDialogSubtitle" xml:space="preserve">
+    <value>Specify Database that SonarQube Server has to use</value>
+  </data>
+  <data name="ConfigureDatabaseDialogTitle" xml:space="preserve">
+    <value>Configure Database</value>
+  </data>
+  <data name="ConfigureNewDatabaseInstanceDialogConfirmPasswordLabel" xml:space="preserve">
+    <value>Confirm Password</value>
+  </data>
+  <data name="ConfigureNewDatabaseInstanceDialogDatabaseNameLabel" xml:space="preserve">
+    <value>Database Name</value>
+  </data>
+  <data name="ConfigureNewDatabaseInstanceDialogDatabasePasswordLabel" xml:space="preserve">
+    <value>Database Password</value>
+  </data>
+  <data name="ConfigureNewDatabaseInstanceDialogDatabaseUserLabel" xml:space="preserve">
+    <value>Database Username</value>
+  </data>
+  <data name="ConfigureNewDatabaseInstanceDialogDescription" xml:space="preserve">
+    <value>Configure parameters that need to be set to the new database:</value>
+  </data>
+  <data name="ConfigureNewDatabaseInstanceDialogInstallingSQLLabel" xml:space="preserve">
+    <value>Installing new SQL Express instance to use with SonarQube Server.</value>
+  </data>
+  <data name="ConfigureNewDatabaseInstanceDialogTitle" xml:space="preserve">
+    <value>Configure New Database Instance</value>
+  </data>
+  <data name="ConfigureNewDatabaseInstanceDialogWindowsAuthenticationLabel" xml:space="preserve">
+    <value>Use Windows Authentication</value>
+  </data>
+  <data name="ConfigureOtherDatabaseConnectionDialogDatabaseNameLabel" xml:space="preserve">
+    <value>Database Name</value>
+  </data>
+  <data name="ConfigureOtherDatabaseConnectionDialogMySQLLabel" xml:space="preserve">
+    <value>MySQL 5.x</value>
+  </data>
+  <data name="ConfigureOtherDatabaseConnectionDialogOracleLabel" xml:space="preserve">
+    <value>Oracle 10g/11g</value>
+  </data>
+  <data name="ConfigureOtherDatabaseConnectionDialogPasswordLabel" xml:space="preserve">
+    <value>Database Password</value>
+  </data>
+  <data name="ConfigureOtherDatabaseConnectionDialogPostgreLabel" xml:space="preserve">
+    <value>PostgreSQL 8.x/9.x</value>
+  </data>
+  <data name="ConfigureOtherDatabaseConnectionDialogServerAddressLabel" xml:space="preserve">
+    <value>Server Address</value>
+  </data>
+  <data name="ConfigureOtherDatabaseConnectionDialogSubtitle" xml:space="preserve">
+    <value>Configure the Database Type and connection parameters</value>
+  </data>
+  <data name="ConfigureOtherDatabaseConnectionDialogTestConnectionButton" xml:space="preserve">
+    <value>Test Connection</value>
+  </data>
+  <data name="ConfigureOtherDatabaseConnectionDialogTitle" xml:space="preserve">
+    <value>Configure Database Connection</value>
+  </data>
+  <data name="ConfigureOtherDatabaseConnectionDialogUsernameLabel" xml:space="preserve">
+    <value>Database Username</value>
+  </data>
+  <data name="ConfigureTCPPortDialogDescription" xml:space="preserve">
+    <value>SonarQube Server requires a TCP port that is not being used by other applications on this machine. The HTTP port is where you will access SonarQube Server through your browser.</value>
+  </data>
+  <data name="ConfigureTCPPortDialogHTTPPortLabel" xml:space="preserve">
+    <value>HTTP Port Number</value>
+  </data>
+  <data name="ConfigureTCPPortDialogSubtitle" xml:space="preserve">
+    <value>Configure which port SonarQube Server will use</value>
+  </data>
+  <data name="ConfigureTCPPortDialogTitle" xml:space="preserve">
+    <value>Configure TCP Port</value>
+  </data>
+  <data name="ConfigureTCPPortDialogUseCustomLabel" xml:space="preserve">
+    <value>Set custom value for the port</value>
+  </data>
+  <data name="ConfigureTCPPortDialogUseDefaultLabel" xml:space="preserve">
+    <value>Use the default port (9000)</value>
+  </data>
+  <data name="ExitDialogSqlFailureDescription" xml:space="preserve">
+    <value>Setup has been interrupted because of SQL installation failure. Please read log file and perform required steps in order to run the setup successfully.</value>
+  </data>
+  <data name="InstallServiceDialogAccountNameLabel" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="InstallServiceDialogInstallServiceLabel" xml:space="preserve">
+    <value>Install Service</value>
+  </data>
+  <data name="InstallServiceDialogPasswordLabel" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="InstallServiceDialogSubtitle" xml:space="preserve">
+    <value>Install SonarQube Server as a service on the machine?</value>
+  </data>
+  <data name="InstallServiceDialogTitle" xml:space="preserve">
+    <value>Install Service</value>
+  </data>
+  <data name="InstallServiceDialogUseSystemAccount" xml:space="preserve">
+    <value>Use a system account</value>
+  </data>
+  <data name="InstallServiceDialogUseUserAccount" xml:space="preserve">
+    <value>Use a user account</value>
+  </data>
+  <data name="SetupDestinationDialogAvailableDiskSpaceLabel" xml:space="preserve">
+    <value>Available Disk Space</value>
+  </data>
+  <data name="SetupDestinationDialogBrowseButtonText" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="SetupDestinationDialogDescription" xml:space="preserve">
+    <value>Select the folder where you would like to install SonarQube Server 5.2, then click Next</value>
+  </data>
+  <data name="SetupDestinationDialogRequiredDiskSpaceLabel" xml:space="preserve">
+    <value>Required Disk Space</value>
+  </data>
+  <data name="SetupDestinationDialogSubtitle" xml:space="preserve">
+    <value>Where should SonarQube Server 5.2 be installed?</value>
+  </data>
+  <data name="SetupDestinationDialogTitle" xml:space="preserve">
+    <value>Select Destination Directory</value>
+  </data>
+  <data name="InstallationSummaryDialogDatabaseName" xml:space="preserve">
+    <value>Database Name</value>
+  </data>
+  <data name="InstallationSummaryDialogDatabaseType" xml:space="preserve">
+    <value>Database Type</value>
+  </data>
+  <data name="InstallationSummaryDialogDatabaseUsername" xml:space="preserve">
+    <value>Database Username</value>
+  </data>
+  <data name="InstallationSummaryDialogDescription" xml:space="preserve">
+    <value>This will install SonarQube Server with the following options on this machine</value>
+  </data>
+  <data name="InstallationSummaryDialogInstallationLocationLabel" xml:space="preserve">
+    <value>Installation Location</value>
+  </data>
+  <data name="InstallationSummaryDialogInstallService" xml:space="preserve">
+    <value>Install Service</value>
+  </data>
+  <data name="InstallationSummaryDialogPortLabel" xml:space="preserve">
+    <value>HTTP Port for web access</value>
+  </data>
+  <data name="InstallationSummaryDialogTitle" xml:space="preserve">
+    <value>Installation Summary</value>
+  </data>
+  <data name="LogOnAsServiceGrantedMessage" xml:space="preserve">
+    <value>The account {0} has been granted the Log On As A Service right.</value>
+  </data>
+  <data name="LogOnAsServiceNotGrantedMessage" xml:space="preserve">
+    <value>The account {0} couldn't be grated the Log On As A Service right.</value>
+  </data>
+  <data name="CustomInstallationSummaryDatabaseName" xml:space="preserve">
+    <value>Database Name</value>
+  </data>
+  <data name="CustomInstallationSummaryServerAddress" xml:space="preserve">
+    <value>Server Address</value>
+  </data>
+  <data name="CustomInstallationSummaryUserName" xml:space="preserve">
+    <value>Database Username</value>
+  </data>
+  <data name="InstallButtonText" xml:space="preserve">
+    <value>Install</value>
+  </data>
+  <data name="setup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>setup.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConfigureOtherDatabaseConnectionDialogPortLabel" xml:space="preserve">
+    <value>Database Port</value>
+  </data>
+  <data name="DowngradeMessage" xml:space="preserve">
+    <value>A later version of SonarQube is already installed on this machine.</value>
+  </data>
+  <data name="ProgressDialogInstallingTitle" xml:space="preserve">
+    <value>Installing {0}</value>
+  </data>
+  <data name="ProgressDialogUninstallingTitle" xml:space="preserve">
+    <value>Uninstalling {0}</value>
+  </data>
+  <data name="CancelSetupInformationText" xml:space="preserve">
+    <value>Do you really want to cancel the setup?</value>
+  </data>
+  <data name="MaintenanceDialogSonarBatchRunningError" xml:space="preserve">
+    <value>SonarQube batch file is running on this machine. Please close the batch file instance to proceed with the uninstallation properly.</value>
+  </data>
+  <data name="WelcomeDialogSonarQubeRunningWarning" xml:space="preserve">
+    <value>Other version of SonarQube service or process is installed on this machine already. Please note this setup doesn't upgrade/downgrade the older SonarQube installation.</value>
+  </data>
+  <data name="ExitDialogServiceWebLink" xml:space="preserve">
+    <value>Service Weblink: http://localhost:{0}/</value>
+  </data>
+</root>
